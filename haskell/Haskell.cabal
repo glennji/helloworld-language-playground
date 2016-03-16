@@ -1,0 +1,10 @@
+name:              Haskell
+version:           1.0
+Build-Type:        Simple
+cabal-version:     >= 1.2
+
+executable Haskell
+  main-is:         abcd.hs
+  hs-source-dirs:  src
+  build-depends:   base >= 4.7 && < 4.8,
+                   ansi-terminal == 0.6.*

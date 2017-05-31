@@ -1,4 +1,4 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/my-project/image1', '.']
-images: ['gcr.io/my-project/image1']
+  args: ['build', '-t', 'gcr.io/spinnaker-play/dumb-image-1', '.']
+images: ['gcr.io/spinnaker-play/dumb-image-1']

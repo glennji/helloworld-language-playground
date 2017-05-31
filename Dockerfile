@@ -1,4 +1,4 @@
 FROM google/cloud-sdk
-ADD coffeescript/
+ADD coffeescript /src
 
 RUN echo "wooohooo"
